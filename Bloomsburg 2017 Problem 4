@@ -1,0 +1,14 @@
+runs = int(input())
+
+for i in range(runs):
+  print('Final counter values: ',end='')
+  raw_input = input()
+  inputs = raw_input.split(' ')
+  no1 = int(inputs[0])
+  no2 = int(inputs[1])
+  no3 = int(inputs[2])
+  c = int((no1 + no2)/(-2))
+  b = int((no1 + no3)/(-2))
+  a = no1 + b + c
+  print('Counter hits: ',a,b,c)
+  print()
